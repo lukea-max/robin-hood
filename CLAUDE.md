@@ -42,9 +42,9 @@ Currently **S = $200**.
 | Max capital deployed | S (never more than $1,000) | $200 |
 | Max per position (at entry) | 50% of S, and never more than $200 | **$100** |
 | Max open positions | 2 if S < $500, 3 if S < $1,000, else 5 | **2** |
-| Max new buy proposals per day | 2 if S < $500, else 4 | **2** |
+| Max new buys per day | 2 if S < $500, else 4 | **2** |
 | Daily loss stop (realized + unrealized) | −5% of S → no new buys for the rest of the day | **−$10** |
-| Drawdown halt (sleeve value vs. S) | −15% of S → stop proposing buys, notify Luke, wait for `resume` | **−$30** |
+| Drawdown halt (sleeve value vs. S) | −15% of S → stop buying, notify Luke, wait for `resume` | **−$30** |
 | Cash buffer | Keep ≥ 2% of S uninvested (covers price moves on limit orders) | $4 |
 
 When Luke adds or withdraws money, update "Sleeve capital" in
@@ -66,7 +66,7 @@ When Luke adds or withdraws money, update "Sleeve capital" in
   placed, sell the position with a limit order at the bid and report it.
 - Unfilled buy limit orders get cancelled after 30 minutes, or once the price
   moves more than 1.5% away. Don't chase with a higher price in the same run.
-- Pattern-day-trader safety: don't propose buying and selling the same stock on
+- Pattern-day-trader safety: don't buy and sell the same stock on
   the same day, except when a stop-loss triggers. Check the account's day-trade
   count before any same-day exit.
 - Don't open a new position within 2 trading days before that company's earnings.
@@ -84,9 +84,9 @@ When Luke adds or withdraws money, update "Sleeve capital" in
 Follow the `trading-cycle` skill (`.claude/skills/trading-cycle/SKILL.md`). In short:
 1. Check that the market is open and the agent isn't paused, halted or at the daily loss stop.
 2. Sync the sleeve: positions, open orders, fills since the last run, P&L.
-3. Manage exits: stops hit, targets reached, broken theses → sell proposals.
-4. Scan for new momentum or news setups (`STRATEGY.md`) → buy proposals.
-5. Post a short report plus proposals, then update `journal/`, commit and push.
+3. Manage exits: stops hit, targets reached, broken theses → place sells.
+4. Scan for new momentum or news setups (`STRATEGY.md`) → place buys that pass every rule.
+5. Post a short report of orders placed and skipped, then update `journal/`, commit and push.
 
 ## 3. Trade record format (posted right after each order, and logged in `journal/proposals.md`)
 ```
