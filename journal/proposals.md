@@ -15,3 +15,4 @@ Status values: PLACED · FILLED · SKIPPED · EXPIRED · CANCELLED · (approve m
 | — | 11:45 | SKIP | VKTX | — | — | — | — | SKIPPED | Rebounded to $41.80 (+2.3%), but 7% stop $38.87 vs resistance at 52w high $43.15 → R:R < 1.5 |
 | — | 11:45 | SKIP | VICR, SHOP | — | — | — | — | SKIPPED | $276.59 / $143.12 per share > $100 max position |
 | — | 12:45 | SKIP | VKTX, VICR, SHOP | — | — | — | — | SKIPPED | VKTX $40.42 (R:R < 1.5 under $43.15 resistance); VICR $278.83 / SHOP $143.04 > $100 max position |
+| — | 13:45 | SKIP | VKTX, VICR, SHOP | — | — | — | — | SKIPPED | VKTX $41.39 (R:R < 1.5 under $43.15 resistance); VICR $275.94 / SHOP $142.22 > $100 max position |
