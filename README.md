@@ -2,7 +2,7 @@
 
 A Claude-powered momentum/news trading agent for a **small sleeve (currently $200, max $1,000)** of my
 Robinhood account. It runs every hour during market hours, researches setups and
-**proposes** trades. Nothing is placed until I reply `approve P-<id>`.
+**trades on its own** within hard risk limits (set in `CLAUDE.md`) and reports every order. `pause` stops it; `approve mode` switches back to asking first.
 
 | File | What it is |
 |---|---|
@@ -23,11 +23,11 @@ Robinhood account. It runs every hour during market hours, researches setups and
    - prompt: `Run the trading-cycle skill.`
    - connector: Robinhood
 
-   It fires into that same session, so I can reply `approve P-…` right there.
+   It fires into that same session, so I see its trade reports there and can reply `pause` at any time.
 
 ## Commands (in the session)
-- `approve P-<id>` / `reject P-<id>` / `approve all`
-- `pause` / `resume`: stop or restart new proposals
+- `pause` / `resume` / `sell all`
+- `approve mode`: go back to proposing trades for approval
 - `run the cycle`: run a cycle now
 - `status`: sleeve summary
 
