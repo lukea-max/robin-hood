@@ -15,15 +15,17 @@ This is a high-risk style. The limits in `CLAUDE.md` exist to keep losses small.
    - Up on the catalyst, but **not chasing**: skip it if it's already more than 12%
      above yesterday's close, or more than 20% above its 20-day MA.
    - Relative strength: outperforming SPY over the last 5 days.
-3. **Market filter**: SPY above its 50-day MA. If SPY is below it, cut the size to
-   $100 max and propose at most 1 new buy per day.
+3. **Market filter**: SPY above its 50-day MA. If SPY is below it, halve the size
+   and propose at most 1 new buy per day.
 4. **Liquidity and universe**: follow the rules in `CLAUDE.md` (≥ $5, ≥ 1M avg
    volume, ≥ $2B cap, no earnings within 2 days).
 5. **Reward-to-risk ≥ 1.5**: the distance to the target must be ≥ 1.5× the distance to the stop.
 
 ## Sizing
-- Base size: $150. Raise to $200 only for the strongest setups (catalyst plus a
+- Base size: 40% of sleeve capital ($80 at $200). Go up to the per-position max
+  in `CLAUDE.md` (50%, so $100 at $200) only for the strongest setups (catalyst plus a
   breakout to a new 52-week high on 2× volume).
+- If the SPY market filter fails, halve the size.
 - Whole shares if affordable; otherwise fractional (if Robinhood allows limit
   orders for fractional shares on that ticker; if not, skip it).
 

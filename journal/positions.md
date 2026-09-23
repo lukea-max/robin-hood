@@ -1,7 +1,7 @@
 # Sleeve positions
 
 Status: ACTIVE          <!-- ACTIVE | PAUSED | HALTED -->
-Starting capital: $1,000.00
+Sleeve capital (S): $200.00   <!-- funded 2026-09-23, confirmed by Luke -->
 Inception date: (set on first fill)
 
 | Ticker | Shares | Entry date | Entry price | Cost | Stop | Target | Stop order ID | Proposal |

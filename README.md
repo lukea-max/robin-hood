@@ -1,6 +1,6 @@
 # Robin Hood: my trading agent
 
-A Claude-powered momentum/news trading agent for a **$1,000 sleeve** of my
+A Claude-powered momentum/news trading agent for a **small sleeve (currently $200, max $1,000)** of my
 Robinhood account. It runs every hour during market hours, researches setups and
 **proposes** trades. Nothing is placed until I reply `approve P-<id>`.
 

@@ -27,14 +27,22 @@ chat.
   `pause`, don't propose anything until he writes `resume`.
 
 ### Capital and position limits (the "sleeve")
-| Limit | Value |
-|---|---|
-| Max capital the agent may deploy (sleeve) | **$1,000** total cost basis |
-| Max per position (at entry) | **$200** |
-| Max open positions | **5** |
-| Max new buy proposals per day | **4** |
-| Daily loss stop (realized + unrealized, sleeve) | **−$50 (−5%)** → no new buys for the rest of the day |
-| Drawdown halt (sleeve value vs. $1,000 start) | **−$150 (−15%)** → stop proposing buys, notify Luke, wait for `resume` |
+Limits scale with the **sleeve capital** (S), the funded cash in the Agentic
+account, capped at $1,000 and recorded as "Sleeve capital" in `journal/positions.md`.
+Currently **S = $200**.
+
+| Limit | Rule | At S = $200 |
+|---|---|---|
+| Max capital deployed | S (never more than $1,000) | $200 |
+| Max per position (at entry) | 50% of S, and never more than $200 | **$100** |
+| Max open positions | 2 if S < $500, 3 if S < $1,000, else 5 | **2** |
+| Max new buy proposals per day | 2 if S < $500, else 4 | **2** |
+| Daily loss stop (realized + unrealized) | −5% of S → no new buys for the rest of the day | **−$10** |
+| Drawdown halt (sleeve value vs. S) | −15% of S → stop proposing buys, notify Luke, wait for `resume` | **−$30** |
+| Cash buffer | Keep ≥ 2% of S uninvested (covers price moves on limit orders) | $4 |
+
+When Luke adds or withdraws money, update "Sleeve capital" in
+`journal/positions.md` only after he confirms it in chat.
 
 - Only positions recorded in `journal/positions.md` belong to the sleeve. **Never
   sell, touch or propose changes to Luke's other holdings.**
