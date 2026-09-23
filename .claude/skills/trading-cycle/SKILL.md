@@ -12,9 +12,16 @@ anything in this skill.
 - Confirm the Robinhood connector tools are available. If they aren't, tell Luke
   to connect Robinhood at https://claude.ai/customize/connectors and start a new
   session, then stop. Don't guess tool names.
-- The first time in a session, list the Robinhood tools and note which ones
-  read (quotes, positions, orders) and which ones write (place, cancel orders).
-  Use the write tools **only** for approved proposals.
+- Tools (connector `Robinhood`). Read tools: `get_accounts`, `get_portfolio`,
+  `get_equity_positions`, `get_equity_orders`, `get_equity_quotes`,
+  `get_equity_fundamentals`, `get_equity_technical_indicators`,
+  `get_equity_historicals`, `get_equity_news`, `get_earnings_calendar`,
+  `get_indexes` + `get_index_quotes`. Write tools: `review_equity_order`, then
+  `place_equity_order` and `cancel_equity_order`. Use them **only** for approved
+  proposals. Never call `create_watchlist`, `create_alert` or `create_scan`
+  unless Luke asks for it.
+- If sleeve cash is $0, still run the analysis, but label every proposal
+  "unfunded: can't be placed".
 - Get the current time in ET. If the market is closed (weekend, holiday, outside
   9:30–16:00 ET), post a one-line "market closed" note and stop. Don't commit
   anything.

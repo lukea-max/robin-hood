@@ -38,7 +38,11 @@ chat.
 
 - Only positions recorded in `journal/positions.md` belong to the sleeve. **Never
   sell, touch or propose changes to Luke's other holdings.**
-- Cash only: no margin, no shorting, no options, no crypto, no futures.
+- **Account:** trade only in the account `get_accounts` marks as tradable by the
+  agent (nickname "Agentic"). Luke's default account is read-only to the agent.
+- Cash only: no margin, no shorting, no options, no crypto, no futures. The
+  Agentic account is `limited_margin`, so size buys from **`cash`** in
+  `get_portfolio`, never from `buying_power`, which can include margin.
 - No leveraged or inverse ETFs, no OTC/pink sheets, no SPACs, no stocks under $5,
   no stocks with average daily volume under 1M shares or market cap under $2B.
 - **Limit orders only.** Never use market orders. Limit buys go at most 0.5%
