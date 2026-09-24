@@ -23,3 +23,4 @@ Status values: PLACED · FILLED · SKIPPED · EXPIRED · CANCELLED · (approve m
 | — | 10:45 | SKIP | scan | — | — | — | — | SKIPPED | P +16.8% (chasing >12%, $128/sh); GRAL +9% ($118/sh), TWST +10.9% ($176/sh) > $100 max position; GIL/CGEM falling; VKTX broken; IONQ blocked to 10/1 |
 | — | 11:45 | SKIP | scan | — | — | — | — | SKIPPED | GDDY +3.4% @ $99.63 but faded from $110.35 high and 1 sh ($99.71) > $80 base size (not a 52w-high breakout); KGC −12%, QURE −12.7% falling; P/TWST/GRAL/VICR/SHOP > $100/sh; IONQ blocked to 10/1 |
 | — | 12:45 | SKIP | scan | — | — | — | — | SKIPPED | No new movers qualify; GDDY now $100.73 > $100 max; KGC/GIL falling; P/TWST/SNX/VICR/SHOP > $100/sh; IONQ $43.99 blocked to 10/1 |
+| — | 13:45 | SKIP | scan | — | — | — | — | SKIPPED | AGL <$2B cap, low vol, falling; MAAS falling (opened $15.10 → ~$12), avg vol < 1M; GDDY $100.68 > $100 max; others unchanged |
