@@ -18,3 +18,5 @@ Status values: PLACED · FILLED · SKIPPED · EXPIRED · CANCELLED · (approve m
 | — | 13:45 | SKIP | VKTX, VICR, SHOP | — | — | — | — | SKIPPED | VKTX $41.39 (R:R < 1.5 under $43.15 resistance); VICR $275.94 / SHOP $142.22 > $100 max position |
 | — | 14:45 | SKIP | VKTX, VICR, SHOP | — | — | — | — | SKIPPED | VKTX $41.18 (R:R < 1.5 under $43.15 resistance); VICR $277.88 / SHOP $142.70 > $100 max position |
 | — | 15:45 | — | — | — | — | — | — | NO NEW BUYS | After 15:30 cutoff. IONQ $42.42 (−$0.37 vs cost); GTC stop $41.40 carries overnight. Day: 1 buy, 0 sells, sleeve $199.63 (−$0.37) |
+| P-2026-09-23-01 | 09:30 (9/24) | STOP | IONQ | 1 | $41.00 lmt | $41.40 | — | FILLED @ $41.3701 | Stop hit at open (pre-mkt weakness, rates-driven tech selloff). Realized −$1.42. Re-entry blocked until 10/1 |
+| — | 09:45 | SKIP | scan | — | — | — | — | SKIPPED | VKTX broken (offering); VICR/SHOP > $100/sh; movers BE/SNX/FSLY/HAFN all falling, IMCR < $2B |
