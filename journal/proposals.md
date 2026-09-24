@@ -25,3 +25,4 @@ Status values: PLACED · FILLED · SKIPPED · EXPIRED · CANCELLED · (approve m
 | — | 12:45 | SKIP | scan | — | — | — | — | SKIPPED | No new movers qualify; GDDY now $100.73 > $100 max; KGC/GIL falling; P/TWST/SNX/VICR/SHOP > $100/sh; IONQ $43.99 blocked to 10/1 |
 | — | 13:45 | SKIP | scan | — | — | — | — | SKIPPED | AGL <$2B cap, low vol, falling; MAAS falling (opened $15.10 → ~$12), avg vol < 1M; GDDY $100.68 > $100 max; others unchanged |
 | — | 14:45 | SKIP | scan | — | — | — | — | SKIPPED | MNTK +27%, YDES +45% → < $5, < $2B, chasing; ZBIO −10%, SFIX −22% falling; GDDY $101.01 > $100; IONQ $45.36 (+6.6%) blocked to 10/1. Last buy window before 15:30 cutoff — nothing qualified |
+| — | 15:45 | — | — | — | — | — | — | NO NEW BUYS | After 15:30 cutoff. All cash $198.58, no positions, no open orders |
