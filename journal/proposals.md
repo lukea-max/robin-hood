@@ -20,3 +20,4 @@ Status values: PLACED · FILLED · SKIPPED · EXPIRED · CANCELLED · (approve m
 | — | 15:45 | — | — | — | — | — | — | NO NEW BUYS | After 15:30 cutoff. IONQ $42.42 (−$0.37 vs cost); GTC stop $41.40 carries overnight. Day: 1 buy, 0 sells, sleeve $199.63 (−$0.37) |
 | P-2026-09-23-01 | 09:30 (9/24) | STOP | IONQ | 1 | $41.00 lmt | $41.40 | — | FILLED @ $41.3701 | Stop hit at open (pre-mkt weakness, rates-driven tech selloff). Realized −$1.42. Re-entry blocked until 10/1 |
 | — | 09:45 | SKIP | scan | — | — | — | — | SKIPPED | VKTX broken (offering); VICR/SHOP > $100/sh; movers BE/SNX/FSLY/HAFN all falling, IMCR < $2B |
+| — | 10:45 | SKIP | scan | — | — | — | — | SKIPPED | P +16.8% (chasing >12%, $128/sh); GRAL +9% ($118/sh), TWST +10.9% ($176/sh) > $100 max position; GIL/CGEM falling; VKTX broken; IONQ blocked to 10/1 |
