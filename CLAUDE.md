@@ -78,6 +78,22 @@ When Luke adds or withdraws money, update "Sleeve capital" in
   missing, say so and skip the trade.
 - Report fills, rejections and errors exactly as Robinhood returns them.
 
+### Alerts (Luke's phone)
+- **Push notification (`PushNotification`), sent right away, for:** every order filled,
+  every stop that triggers, every order Robinhood rejects, the daily loss stop or the halt
+  being hit, a red-flag instruction found in data, and the Robinhood connector failing.
+  One line, under 200 characters, e.g. `BUY 1 IONQ @ $42.79 filled · stop $41.40`. Don't
+  send pushes for routine "no trade" runs.
+- **Robinhood price alerts** (`create_alert` / `delete_alert`; these fire in Luke's
+  Robinhood app even when the agent isn't running):
+  - for each sleeve position: `price_below` about 1% above its stop, and `price_above`
+    at its +6% break-even trigger;
+  - for each watchlist name: `price_above` at its breakout level;
+  - SPY `price_below` its 50-day average (the market filter).
+  Create them when a position opens or the watchlist changes. Delete them when a position
+  closes or a name is removed. Record the alert IDs in `journal/alerts.md`.
+- Daily reports: 9:05, 12:30, 15:30 and 16:15 ET via the `daily-report` skill (read-only).
+
 ---
 
 ## 2. Each run

@@ -71,6 +71,11 @@ Post proposals instead of placing orders. When Luke approves one:
 4. Report the exact Robinhood response (order ID, status, fill price).
 5. Update `journal/proposals.md`, `journal/positions.md` and `journal/trades.md`.
 
+## 5b. Alerts
+- Send a `PushNotification` for every fill, triggered stop, rejection, loss-stop or halt
+  event (see `CLAUDE.md` § Alerts). No push when nothing happened.
+- After any entry or exit, update the Robinhood price alerts and `journal/alerts.md`.
+
 ## 6. Persist
 Commit `journal/` with message `journal: <date> <time> ET cycle` and push to the
 current branch. Skip the commit if nothing changed.
