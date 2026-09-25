@@ -59,6 +59,10 @@ Tomorrow: <watchlist setups, earnings, events>
 Also add a dated block to `journal/reports.md` (after-close only needs the full text; the other
 reports get one line), then commit and push.
 
+## Push (every report)
+End every report with a one-line `PushNotification` summary (under 200 chars), e.g.
+`☀️ Pre-market: sleeve $198.58 all cash · SPY +0.3% · watching AKAM, PPLI`.
+
 ## Alerts (every report)
 - Say which Robinhood alerts fired (from `get_alert_log`).
 - Keep the Robinhood alerts in sync (see `CLAUDE.md` § Alerts): one alert just above each

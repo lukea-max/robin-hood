@@ -33,7 +33,7 @@ Robinhood account. It runs every hour during market hours, researches setups and
 
 ## Reports & alerts
 - Reports on weekdays at 9:05 (pre-market), 12:30 (midday), 3:30 (pre-close) and 4:15 PM ET (after close). **After Nov 1, move each one an hour later in UTC.**
-- Phone push for every fill, stop, rejection or loss-limit event; Robinhood price alerts are listed in `journal/alerts.md`.
+- Phone push after every run and report (one-line summary), plus immediately on fills, stops, rejections or loss-limit events; Robinhood price alerts are listed in `journal/alerts.md`.
 
 ## Warning
 Momentum trading is high-risk, and this is not financial advice. The agent can be

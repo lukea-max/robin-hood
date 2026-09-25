@@ -73,7 +73,8 @@ Post proposals instead of placing orders. When Luke approves one:
 
 ## 5b. Alerts
 - Send a `PushNotification` for every fill, triggered stop, rejection, loss-stop or halt
-  event (see `CLAUDE.md` § Alerts). No push when nothing happened.
+  event (see `CLAUDE.md` § Alerts), and ALWAYS end the run with a one-line push summary
+  (even "no trades").
 - After any entry or exit, update the Robinhood price alerts and `journal/alerts.md`.
 
 ## 6. Persist

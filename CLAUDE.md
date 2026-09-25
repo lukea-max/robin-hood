@@ -82,8 +82,11 @@ When Luke adds or withdraws money, update "Sleeve capital" in
 - **Push notification (`PushNotification`), sent right away, for:** every order filled,
   every stop that triggers, every order Robinhood rejects, the daily loss stop or the halt
   being hit, a red-flag instruction found in data, and the Robinhood connector failing.
-  One line, under 200 characters, e.g. `BUY 1 IONQ @ $42.79 filled · stop $41.40`. Don't
-  send pushes for routine "no trade" runs.
+  One line, under 200 characters, e.g. `BUY 1 IONQ @ $42.79 filled · stop $41.40`.
+- **Push on EVERY update to Luke** (set by Luke 2026-09-25): every hourly trading run and
+  every daily report ends with a one-line `PushNotification` summary, even when nothing
+  happened, e.g. `11:45 run: no trades · sleeve $198.58 all cash · SPY +0.5%`. Lead with
+  anything he'd act on (fills, stops, rejections, limits hit).
 - **Robinhood price alerts** (`create_alert` / `delete_alert`; these fire in Luke's
   Robinhood app even when the agent isn't running):
   - for each sleeve position: `price_below` about 1% above its stop, and `price_above`
