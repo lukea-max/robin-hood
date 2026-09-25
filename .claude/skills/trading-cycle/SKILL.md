@@ -19,7 +19,8 @@ anything in this skill.
   `get_indexes` + `get_index_quotes`. Write tools: `review_equity_order`, then
   `place_equity_order` and `cancel_equity_order`. Use them only for trades that
   pass every hard rule (or approved proposals in `approve mode`). Never call `create_watchlist`, `create_alert` or `create_scan`
-  unless Luke asks for it.
+  unless Luke asks for it or it's the watchlist/alert upkeep he delegated
+  (adding/removing watchlist names and their alerts, fractional soft-stop alerts).
 - If sleeve cash is below the planned order size plus the buffer, still run the
   analysis but place nothing. Report "insufficient cash".
 - Get the current time in ET. If the market is closed (weekend, holiday, outside
@@ -48,9 +49,14 @@ the old one, then placing the new one). Mind the same-day round-trip rule.
   `CLAUDE.md`. Drop anything you can't verify.
 - Take at most the best 1 per run, and stay within the daily buy limit and position limit.
 - Execute: fresh quote (< 2 min old) → re-check every hard rule →
-  `review_equity_order` (any alert → skip and report) → `place_equity_order`
-  (limit, ≤ 0.5% above ask, whole or fractional shares) → once filled, place the
-  stop order. Report the exact Robinhood response.
+  `review_equity_order` (any alert → skip and report) → `place_equity_order`:
+  - whole shares: limit, ≤ 0.5% above ask → once filled, place the GTC stop order;
+  - fractional (1 share > size): `type=market`, `dollar_amount`, regular hours, only if
+    the spread is ≤ 0.15% → once filled, create a `price_below` alert at the stop (soft
+    stop) and record "SOFT" as the stop order ID in `journal/positions.md`.
+  Report the exact Robinhood response.
+- Soft stops: every run, before anything else in step 2, quote each SOFT-stop position;
+  at or below its stop → market sell the full quantity (regular hours) and push.
 
 ## 3b. Options test (only while `journal/positions.md` says "Options test: OPEN")
 - Follow `CLAUDE.md` § Options test. Tools: `get_option_chains`, `get_option_instruments`,

@@ -90,11 +90,22 @@ Once it's placed (filled or not), no more options trades until Luke says so.
 - If nothing qualifies, don't force it. Skip and report; the test waits for a clean setup.
 - No leveraged or inverse ETFs, no OTC/pink sheets, no SPACs, no stocks under $5,
   no stocks with average daily volume under 1M shares or market cap under $2B.
-- **Limit orders only.** Never use market orders. Limit buys go at most 0.5%
-  above the current ask.
+- **Limit orders only**, with one exception (fractional shares, below). Limit buys go
+  at most 0.5% above the current ask.
+- **Fractional shares** (set by Luke 2026-09-25): when 1 whole share costs more than the
+  planned size, buy a dollar amount instead. Robinhood only fills fractional/dollar orders
+  as **market orders in regular hours**, so they are allowed only when ALL of these hold:
+  9:45–15:30 ET; quote < 2 min old; bid/ask spread ≤ 0.15% of the price; price moved
+  ≤ 1% in the last 5 minutes; `review_equity_order` shows no alert. Whole shares with a limit order stay the default
+  whenever they fit the size.
 - Every buy must have a **stop-loss** (at most 7% below entry) and a profit
   target. Place the stop order right after the fill. If the stop order can't be
   placed, sell the position with a limit order at the bid and report it.
+  **Fractional positions can't take a Robinhood stop order.** For them the stop is a
+  *soft stop*: a Robinhood `price_below` alert at the stop level (fires on Luke's phone),
+  checked every hourly run; if the price is at or below the stop, sell the whole
+  position with a market order (regular hours) right away. Soft stops are only checked
+  hourly, so the actual loss can go past the stop.
 - Unfilled buy limit orders get cancelled after 30 minutes, or once the price
   moves more than 1.5% away. Don't chase with a higher price in the same run.
 - Pattern-day-trader safety: don't buy and sell the same stock on
@@ -153,6 +164,9 @@ P-2026-09-24-01  BUY  NVDA  1 sh  limit $182.40  (~$182)   → PLACED, order <id
 - `journal/positions.md`: the sleeve's open positions (source of truth for what the agent may manage).
 - `journal/proposals.md`: every trade decision and what happened to it (placed, filled, skipped, expired).
 - `journal/trades.md`: filled orders and realized P&L.
-- `journal/watchlist.md`: tickers Luke wants watched or never traded.
+- `journal/watchlist.md`: tickers to watch or never trade. The agent may add or remove
+  names here and on Luke's "Day 1" Robinhood watchlist on its own (set by Luke 2026-09-25),
+  keeping the watchlist alerts in sync; it reports each change in the next run report.
+  Luke's "Never trade" entries stay untouched.
 
 The container is ephemeral: **commit and push `journal/` at the end of every run.**

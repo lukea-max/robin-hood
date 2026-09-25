@@ -26,8 +26,9 @@ This is a high-risk style. The limits in `CLAUDE.md` exist to keep losses small.
   in `CLAUDE.md` (50%, so $100 at $200) only for the strongest setups (catalyst plus a
   breakout to a new 52-week high on 2× volume).
 - If the SPY market filter fails, halve the size.
-- Whole shares if affordable; otherwise fractional (if Robinhood allows limit
-  orders for fractional shares on that ticker; if not, skip it).
+- Whole shares (limit order) if affordable; otherwise a fractional dollar-amount
+  market order, only under the `CLAUDE.md` fractional conditions (tight spread, regular
+  hours, soft stop via alert + hourly check).
 
 ## Stops and targets
 - Stop: below the catalyst-day low or the 20-day MA, whichever is closer, and
