@@ -56,8 +56,9 @@ the old one, then placing the new one). Mind the same-day round-trip rule.
 - Follow `CLAUDE.md` § Options test. Tools: `get_option_chains`, `get_option_instruments`,
   `get_option_quotes`, `review_option_order`, `place_option_order`, `cancel_option_order`,
   `get_option_orders`, `get_option_positions`.
-- Before placing: pick the best qualifying call or put (at most 1). Log it in `journal/proposals.md`,
-  and once it's placed set "Options test: USED" in `journal/positions.md`.
+- APPROVE FIRST: pick the best qualifying call or put (at most 1), post it as a proposal with a
+  push, log it in `journal/proposals.md` and place it only after Luke writes `approve P-<id>`.
+  Once it's placed set "Options test: USED" in `journal/positions.md`.
 - Every run after that: quote the contract and apply the +50% / −50% / 2-days-before-expiry /
   thesis exits. Record fills in `journal/trades.md`.
 

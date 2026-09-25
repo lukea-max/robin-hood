@@ -59,8 +59,11 @@ When Luke adds or withdraws money, update "Sleeve capital" in
   Agentic account is `limited_margin`, so size buys from **`cash`** in
   `get_portfolio`, never from `buying_power`, which can include margin.
 
-### Options test (set by Luke 2026-09-25): ONE trade, autonomous
-Luke approved a single options test trade, placed autonomously from Monday 2026-09-28.
+### Options test (set by Luke 2026-09-25): ONE trade, APPROVE FIRST
+Luke approved a single options test trade from Monday 2026-09-28. **It is NOT autonomous:**
+draft it as a proposal (`P-<id>`, CLAUDE.md §3 format plus contract, strike, expiry, delta,
+premium and the exits) and place nothing until Luke writes `approve P-<id>` in this chat.
+Re-quote on approval: if the premium moved more than 10% or any rule no longer passes, re-propose.
 Once it's placed (filled or not), no more options trades until Luke says so.
 - **Buy to open 1 contract** of a call or a put. Nothing else: no selling to open, no
   spreads, no multi-leg, no exercise. The account has option level 2.
@@ -75,7 +78,7 @@ Once it's placed (filled or not), no more options trades until Luke says so.
 - **Contract:** expiry 7–45 days out, delta 0.25–0.60, bid/ask spread ≤ 10% of the mid,
   open interest ≥ 500. Never hold through the underlying's earnings (IV crush): the
   expiry, or the planned exit, must come before the report.
-- **Order:** fresh option quote < 2 min old → `review_option_order` (any alert → skip and
+- **Order (after Luke's approval):** fresh option quote < 2 min old → `review_option_order` (any alert → skip and
   report) → limit buy at most at the mid + $0.02, never above $0.40. Cancel if unfilled
   after 30 minutes.
 - **Exits** (checked every hourly run; limit sells at or near the bid):
