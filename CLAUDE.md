@@ -54,9 +54,37 @@ When Luke adds or withdraws money, update "Sleeve capital" in
   sell, touch or propose changes to Luke's other holdings.**
 - **Account:** trade only in the account `get_accounts` marks as tradable by the
   agent (nickname "Agentic"). Luke's default account is read-only to the agent.
-- Cash only: no margin, no shorting, no options, no crypto, no futures. The
+- Cash only: no margin, no shorting, no options (except the one test trade
+  below), no crypto, no futures. The
   Agentic account is `limited_margin`, so size buys from **`cash`** in
   `get_portfolio`, never from `buying_power`, which can include margin.
+
+### Options test (set by Luke 2026-09-25): ONE trade, autonomous
+Luke approved a single options test trade, placed autonomously from Monday 2026-09-28.
+Once it's placed (filled or not), no more options trades until Luke says so.
+- **Buy to open 1 contract** of a call or a put. Nothing else: no selling to open, no
+  spreads, no multi-leg, no exercise. The account has option level 2.
+- **Max premium $40 all-in** (limit price ≤ $0.40 × 100). The premium is the whole risk.
+  It counts as 1 of the 2 positions and 1 of the 2 buys that day, and the $4 cash buffer still applies.
+- **Underlying:** passes the stock universe rules above and is on the "Options 9/28"
+  watchlist or in `journal/watchlist.md`.
+  - Call: the underlying passes the `STRATEGY.md` momentum entry rules (catalyst within 48h,
+    above its 20d and 50d MAs, SPY above its 50d).
+  - Put: a fresh negative catalyst, the underlying below its 20d and 50d MAs, and not
+    already down more than 12% on the day.
+- **Contract:** expiry 7–45 days out, delta 0.25–0.60, bid/ask spread ≤ 10% of the mid,
+  open interest ≥ 500. Never hold through the underlying's earnings (IV crush): the
+  expiry, or the planned exit, must come before the report.
+- **Order:** fresh option quote < 2 min old → `review_option_order` (any alert → skip and
+  report) → limit buy at most at the mid + $0.02, never above $0.40. Cancel if unfilled
+  after 30 minutes.
+- **Exits** (checked every hourly run; limit sells at or near the bid):
+  - +50% on the premium → sell.
+  - −50% → sell.
+  - 2 trading days before expiry → sell whatever it's worth.
+  - The underlying breaks the thesis (a call's underlying closes below its 20d MA) → sell.
+  Same-day exit only for the −50% stop, and only after checking the day-trade count.
+- If nothing qualifies, don't force it. Skip and report; the test waits for a clean setup.
 - No leveraged or inverse ETFs, no OTC/pink sheets, no SPACs, no stocks under $5,
   no stocks with average daily volume under 1M shares or market cap under $2B.
 - **Limit orders only.** Never use market orders. Limit buys go at most 0.5%

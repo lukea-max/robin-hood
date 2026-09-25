@@ -52,6 +52,15 @@ the old one, then placing the new one). Mind the same-day round-trip rule.
   (limit, ≤ 0.5% above ask, whole or fractional shares) → once filled, place the
   stop order. Report the exact Robinhood response.
 
+## 3b. Options test (only while `journal/positions.md` says "Options test: OPEN")
+- Follow `CLAUDE.md` § Options test. Tools: `get_option_chains`, `get_option_instruments`,
+  `get_option_quotes`, `review_option_order`, `place_option_order`, `cancel_option_order`,
+  `get_option_orders`, `get_option_positions`.
+- Before placing: pick the best qualifying call or put (at most 1). Log it in `journal/proposals.md`,
+  and once it's placed set "Options test: USED" in `journal/positions.md`.
+- Every run after that: quote the contract and apply the +50% / −50% / 2-days-before-expiry /
+  thesis exits. Record fills in `journal/trades.md`.
+
 ## 4. Report (keep it short; Luke reads it on his phone)
 ```
 🕙 10:45 ET | Sleeve $203 (+1.5%) | Today +$3 | 1/2 positions | $118 cash
