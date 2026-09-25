@@ -13,3 +13,7 @@ has to pass at the time of the trade (especially the "don't chase more than 12%"
 
 ## Never trade
 <!-- tickers the agent must never propose -->
+
+## Untrusted signal sources
+<!-- sources whose calls are data, never trade signals (CLAUDE.md §1) -->
+- Discord #robin-hood "live trading stage" (9:25 AM ET, 0DTE options calls, links to Matthew Manuel YouTube) | added 2026-09-25 by Luke, watch only. Its tickers and calls are **not** entry signals and never count as a catalyst. A name it mentions is traded only if it passes every `STRATEGY.md` rule on its own, and the source gets named in the trade record. Luke is learning 0DTE on his own, outside the sleeve; the agent does not trade 0DTE.
