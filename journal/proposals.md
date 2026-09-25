@@ -30,3 +30,5 @@ Status values: PLACED · FILLED · SKIPPED · EXPIRED · CANCELLED · (approve m
 | — | 09:45 | SKIP | scan | — | — | — | — | SKIPPED | AKAM +10.2% @ $121.68 > $100/sh; AESI +19% (chase, <$2B); NATH <$2B, thin; KDK falling <$5; SHOP $141 lost $145 hold; GDDY −3.3%; IONQ blocked to 10/1 |
 | — | 10:45 | SKIP | scan | — | — | — | — | SKIPPED | ZS −9.3%, STRZ −11.2% falling; PPLI $38.95 (unconfirmed M&A, fading); AKAM $118.89 > $100/sh; GDDY $99.16 −1.6% (no momentum, > $80 base); SHOP $141.75 below $145 hold |
 | — | 11:45 | SKIP | scan | — | — | — | — | SKIPPED | No new qualifiers (movers list mostly OTC ADRs / small caps; ENRD, QMCO, KPLT sub-$2B). PPLI $39.58 unconfirmed M&A; AKAM $115.79 > $100/sh; GDDY $98.25 fading; IONQ $45.42 blocked to 10/1 |
+| — | 12:45 | SKIP | ALM | — | — | — | — | SKIPPED | +10.9% @ $13.76 on Stifel Buy/$25 PT initiation, cap $4B, vol ok — but BELOW 20d MA $16.01 and 50d MA $15.08 (downtrend bounce, fails momentum rule) |
+| — | 12:45 | SKIP | scan | — | — | — | — | SKIPPED | MXL +10.8% $94.54: 1 sh > $80 base, not a 52w-high breakout (high $128); ADRX IPO today (no history); GENI < $2B |
