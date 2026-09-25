@@ -26,3 +26,5 @@ Status values: PLACED · FILLED · SKIPPED · EXPIRED · CANCELLED · (approve m
 | — | 13:45 | SKIP | scan | — | — | — | — | SKIPPED | AGL <$2B cap, low vol, falling; MAAS falling (opened $15.10 → ~$12), avg vol < 1M; GDDY $100.68 > $100 max; others unchanged |
 | — | 14:45 | SKIP | scan | — | — | — | — | SKIPPED | MNTK +27%, YDES +45% → < $5, < $2B, chasing; ZBIO −10%, SFIX −22% falling; GDDY $101.01 > $100; IONQ $45.36 (+6.6%) blocked to 10/1. Last buy window before 15:30 cutoff — nothing qualified |
 | — | 15:45 | — | — | — | — | — | — | NO NEW BUYS | After 15:30 cutoff. All cash $198.58, no positions, no open orders |
+| — | 09:45 (9/25) | SKIP | PPLI | — | — | — | — | SKIPPED | +9.4% @ $39.32 on WSJ report of MGM takeover talks — unconfirmed M&A talk (deal/denial binary risk; 1 day after PPLI withdrew its own MGM bid) → "skip anything uncertain" |
+| — | 09:45 | SKIP | scan | — | — | — | — | SKIPPED | AKAM +10.2% @ $121.68 > $100/sh; AESI +19% (chase, <$2B); NATH <$2B, thin; KDK falling <$5; SHOP $141 lost $145 hold; GDDY −3.3%; IONQ blocked to 10/1 |
