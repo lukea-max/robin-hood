@@ -39,3 +39,5 @@ Status values: PLACED · FILLED · SKIPPED · EXPIRED · CANCELLED · (approve m
 | — | 2026-09-28 09:45 | SKIP | scan | — | — | — | — | SKIPPED | KOD +138% (chase); IONQ +4.3% $47.45 blocked to 10/1 (daily re-check); MAT/PONY/BEKE rel vol ≤0.25. Options test: no call underlying passes all rules yet → no proposal |
 | — | 2026-09-28 10:45 | SKIP | NVDA | — | — | — | — | WATCH | Faded to $229.18 (+1.8%, high $233.21). Volume 56.6M vs 1.5× avg 160M: rule not met. 5-day vs SPY passes (+2.8% from 9/21 open vs SPY −0.2%). Re-check next run |
 | — | 2026-09-28 10:45 | SKIP | scan | — | — | — | — | SKIPPED | Only KOD +153% has heavy volume (chase). GAP/AEO/PSKY/BURL etc. rel vol ≤0.45. SPY $764.65 (−0.9%) still above 50d $760.59 (0.5% margin). IONQ $46.44 blocked to 10/1. No options proposal |
+| — | 2026-09-28 11:45 | SKIP | NVDA | — | — | — | — | WATCH | $229.65 (+2.0%), volume 73.1M vs 160M needed (pace slowing: +16.5M last hour) → volume rule unlikely today |
+| — | 2026-09-28 11:45 | SKIP | scan | — | — | — | — | SKIPPED | KOD +157% (chase); VG/PONY/BEKE/GAP/ZS rel vol ≤0.7. SPY $764.91 (−0.8%) above 50d $760.59. IONQ $46.08 blocked to 10/1. No options proposal |
