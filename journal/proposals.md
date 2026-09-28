@@ -41,3 +41,5 @@ Status values: PLACED · FILLED · SKIPPED · EXPIRED · CANCELLED · (approve m
 | — | 2026-09-28 10:45 | SKIP | scan | — | — | — | — | SKIPPED | Only KOD +153% has heavy volume (chase). GAP/AEO/PSKY/BURL etc. rel vol ≤0.45. SPY $764.65 (−0.9%) still above 50d $760.59 (0.5% margin). IONQ $46.44 blocked to 10/1. No options proposal |
 | — | 2026-09-28 11:45 | SKIP | NVDA | — | — | — | — | WATCH | $229.65 (+2.0%), volume 73.1M vs 160M needed (pace slowing: +16.5M last hour) → volume rule unlikely today |
 | — | 2026-09-28 11:45 | SKIP | scan | — | — | — | — | SKIPPED | KOD +157% (chase); VG/PONY/BEKE/GAP/ZS rel vol ≤0.7. SPY $764.91 (−0.8%) above 50d $760.59. IONQ $46.08 blocked to 10/1. No options proposal |
+| — | 2026-09-28 12:45 | SKIP | CMG | — | — | — | — | SKIPPED | +4.5% @ $32.73, rel vol 1.09, but BELOW 20d $35.31 / 50d $34.78; catalyst only a margarita promo (not a qualifying catalyst) |
+| — | 2026-09-28 12:45 | SKIP | NVDA/scan | — | — | — | — | SKIPPED | NVDA $231 (+2.7%) volume 87.1M vs 160M needed. KOD +172% (chase); GAP/AEO/BURL/PANW/GIL rel vol ≤0.9. IONQ blocked. No options proposal |
