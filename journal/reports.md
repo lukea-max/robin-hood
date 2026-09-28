@@ -22,3 +22,6 @@ Sleeve $200.00 → $199.63 at close (−$0.37). 1 buy (IONQ 1 @ $42.7861, stop $
   What worked / what didn't: filters kept us out of chases (AKAM +23% gap, PPLI rumor). Downside: the $200 sleeve + $100/position cap blocks most quality momentum names.
   Market: SPY $771.30 (+0.5%), above 50d. VICR $281.62 (+2.0%), IONQ $45.50 (+1.1%, re-entry from 10/1), SHOP $142.24 (−2.0%), VKTX $35.54 (−3.3%). No alerts fired.
   Next week: CCL earnings Tue 9/29 am, MU Wed 9/30 pm, NKE Thu 10/1 pm, ACN Thu am. Options test proposal (approve-first, max $40) from Mon. IONQ eligible again Thu 10/1.
+
+## 2026-09-28
+- 09:05 PRE-MARKET (ran 09:25; the trigger fired 20 min late; saved at 09:46 because the auto-mode check was down): Sleeve $198.58 all cash (−$1.42 / −0.71% since start); portfolio equity $0. No alerts fired over the weekend. Pre-market: SPY $768.41 (−0.4%), still above its 50d ($760.59); QQQ $740.00 (−0.6%). Watchlist: VICR $275.94 (−2.1%), IONQ $45.42 (−0.1%, re-entry Thu 10/1), SHOP $140.00 (−1.6%). Options list: MU $1,069.80 (−1.2%, earnings Wed pm), NKE $35.48 (−0.8%, Thu pm), CCL $21.95 (−1.3%, Tue am), AKAM $112.00 (−1.7%), ACN $173.56 (−1.4%, Thu am). Macro news not checked (the news tool was unavailable).
