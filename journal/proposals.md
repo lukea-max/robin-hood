@@ -43,3 +43,4 @@ Status values: PLACED · FILLED · SKIPPED · EXPIRED · CANCELLED · (approve m
 | — | 2026-09-28 11:45 | SKIP | scan | — | — | — | — | SKIPPED | KOD +157% (chase); VG/PONY/BEKE/GAP/ZS rel vol ≤0.7. SPY $764.91 (−0.8%) above 50d $760.59. IONQ $46.08 blocked to 10/1. No options proposal |
 | — | 2026-09-28 12:45 | SKIP | CMG | — | — | — | — | SKIPPED | +4.5% @ $32.73, rel vol 1.09, but BELOW 20d $35.31 / 50d $34.78; catalyst only a margarita promo (not a qualifying catalyst) |
 | — | 2026-09-28 12:45 | SKIP | NVDA/scan | — | — | — | — | SKIPPED | NVDA $231 (+2.7%) volume 87.1M vs 160M needed. KOD +172% (chase); GAP/AEO/BURL/PANW/GIL rel vol ≤0.9. IONQ blocked. No options proposal |
+| — | 2026-09-28 13:45 | SKIP | scan | — | — | — | — | SKIPPED | NVDA volume 97.2M vs 160M needed. Retail group bid (VSXY +7.3%, AEO +5.8%, GAP +5.4%, BURL +4.4%) but rel vol ≤1.13 and no stock-specific catalyst verified; KOD +178% (chase). IONQ blocked. No options proposal |
