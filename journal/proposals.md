@@ -57,3 +57,4 @@ Status values: PLACED · FILLED · SKIPPED · EXPIRED · CANCELLED · (approve m
 | — | 2026-09-29 13:45 | SKIP | CBOE | — | — | — | — | SKIPPED | +5.1% @ $266 on royalty-fee clarification, rel vol 1.82, but BELOW 20d $280.17 / 50d $288.37 (rebound in downtrend) |
 | — | 2026-09-29 13:45 | SKIP | scan | — | — | — | — | SKIPPED | IOVA +36% / CCL +12.4% (chase); BE > $100 & chase; WRBY +10.2% rel vol 1.03; SMMT below 20d. Sleeve flat, cash $187.54 (+ Luke's DJT call) |
 | — | 2026-09-29 14:45 | SKIP | scan | — | — | — | — | SKIPPED | Last buy window. CCL $25.16 (+13.6%, over chase limit, still below 50d $25.33); IOVA +34% chase; BE > $100; SMMT $16.64 at/below 20d $16.66; WRBY/AXTI/HAFN rel vol 1.0–1.3 (< 1.5); KMX $59.57 blocked to 10/6. SPY $764.85 |
+| — | 2026-09-29 15:45 | SKIP | — | — | — | — | — | SKIPPED | After 15:30 cutoff: no new buys. Sync (15:44): 0 sleeve positions, 0 open orders, cash $187.54 (+ Luke's DJT call, not sleeve) |
