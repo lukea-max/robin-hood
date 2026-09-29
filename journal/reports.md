@@ -35,3 +35,6 @@ Sleeve $200.00 → $199.63 at close (−$0.37). 1 buy (IONQ 1 @ $42.7861, stop $
   What worked / what didn't: the filters held on a risk-off day (SPY −0.8%); the volume rule is strict for mega-caps like NVDA, where 1.5× average volume is rare even on real news.
   Market: SPY $765.56 (−0.8%), above 50d $760.59 (0.7% margin). NVDA $228.87 (+1.7%), IONQ $44.55 (−2.0%, eligible Thu 10/1), VICR $285.17 (+1.1%), SHOP $144.04 (+1.3%). No alerts fired.
   Tomorrow: CCL earnings before the open; MU Wed pm; NKE/ACN Thu. Options test proposal (approve-first, max $40) still open.
+
+## 2026-09-29
+- 09:05 PRE-MARKET (ran 09:19): Sleeve $198.58 all cash (−$1.42 / −0.71% since start); nothing held, no alerts fired overnight. Pre-market: SPY $766.62 (+0.1%), above 50d $760.59; QQQ $738.97 (+0.3%). CCL $24.02 (+8.5%) on record Q3 (all-time high revenue, net yields and net income; FY adj. net income raised >$150M vs June; record 2027 bookings; 8-K filed). MU $1,070.49 (+1.6%, earnings Wed pm). NVDA $230.52 (+0.7%), VICR $291.79 (+2.3%), IONQ $45.25 (+1.5%, eligible Thu 10/1), SHOP $143.50 (−0.4%). Plan: 9:45 run checks CCL: real catalyst and < 12% chase limit ($24.80), but it has been near its 52-week low, so it must also be above its 20d/50d averages to qualify. If CCL qualifies, it is also the natural options-test candidate (approve-first, max $40).
