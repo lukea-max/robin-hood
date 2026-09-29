@@ -9,5 +9,5 @@
 | 098d5b8a-cde3-4848-b7fd-75f7045b9c4f | NVDA | price_above | $236.54 | Breakout over 52w high (watchlist, added 9/28) |
 | cea35a08-fb83-4aa8-a3b2-c162eb8825bb | CCL | price_above | $25.33 | Reclaims 50-day MA (watchlist, added 9/29) |
 | ad44df62-2c37-43de-8df7-eb2b2b50aeaf | KMX | price_above | $65.28 | Breakout over 52w high (watchlist, added 9/29) |
-| 0b3fcb7d-ecbf-467a-b6d6-6c0864549619 | KMX | price_below | $60.40 | ~1% above stop $59.80 (position) |
-| 7d0898ef-b4c9-48cd-be10-dd968ae964c5 | KMX | price_above | $64.39 | +6% break-even trigger (position) |
+| 0b3fcb7d-ecbf-467a-b6d6-6c0864549619 | KMX | price_below | $60.40 | DISABLED 9/29: position stopped out (fired 11:10 @ $60.38) |
+| 7d0898ef-b4c9-48cd-be10-dd968ae964c5 | KMX | price_above | $64.39 | DISABLED 9/29: position closed |

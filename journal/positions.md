@@ -7,4 +7,6 @@ Options test: OPEN      <!-- 1 long call/put, max $40 premium, APPROVE FIRST, fr
 
 | Ticker | Shares | Entry date | Entry price | Cost | Stop | Target | Stop order ID | Proposal |
 |---|---|---|---|---|---|---|---|---|
-| KMX | 1 | 2026-09-29 | $60.7446 | $60.74 | $59.80 (stop-limit $59.40, GTC; −1.6%) | $65.80 (+8.3%) | 6abbd453-8237-4160-9f22-2a79325b9ad1 | P-2026-09-29-01 |
+
+## Not sleeve (do not manage)
+- DJT $10 call exp 2026-10-02, 1 contract, bought by Luke manually 2026-09-29 10:11 ET for $10.00 (placed_agent=user, order 6abbc718-8a40-4d63-bedd-10e13472c00d). It uses ~$10 of the Agentic account's cash, so sleeve cash available = account `cash`. Agent never touches it.
