@@ -7,7 +7,9 @@
 | 31013d4a-9c2e-46fe-8004-04c9aa3a7a3a | VKTX | price_above | $43.15 | DELETED 9/25: removed from watchlist |
 | d72d7985-1e9d-4562-8bb3-249615a514be | SPY | price_below | $760.59 | Market filter: below 50-day MA → half size |
 | 098d5b8a-cde3-4848-b7fd-75f7045b9c4f | NVDA | price_above | $236.54 | Breakout over 52w high (watchlist, added 9/28) |
-| cea35a08-fb83-4aa8-a3b2-c162eb8825bb | CCL | price_above | $25.33 | Reclaims 50-day MA (watchlist, added 9/29) |
+| cea35a08-fb83-4aa8-a3b2-c162eb8825bb | CCL | price_above | $25.33 | Reclaims 50-day MA (watchlist, added 9/29); FIRED 9/30 08:25 |
 | ad44df62-2c37-43de-8df7-eb2b2b50aeaf | KMX | price_above | $65.28 | Breakout over 52w high (watchlist, added 9/29) |
 | 0b3fcb7d-ecbf-467a-b6d6-6c0864549619 | KMX | price_below | $60.40 | DISABLED 9/29: position stopped out (fired 11:10 @ $60.38) |
 | 7d0898ef-b4c9-48cd-be10-dd968ae964c5 | KMX | price_above | $64.39 | DISABLED 9/29: position closed |
+| dcece3e5-9d62-4e89-9715-6498856337c1 | CCL | price_below | $24.20 | Sleeve position: ~1% above stop $23.95 (added 9/30) |
+| 839f87ad-e31d-49f7-9491-838f72c363d2 | CCL | price_above | $26.93 | Sleeve position: +6% → raise stop to break-even (added 9/30) |
