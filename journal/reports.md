@@ -84,6 +84,6 @@ Sleeve $200.00 → $199.63 at close (−$0.37). 1 buy (IONQ 1 @ $42.7861, stop $
   Sleeve $198.68 (day +$2.13 / +1.1%, since start −$1.32 / −0.7%) · realized P&L today $0.00. Account $189.74 = cash $111.31 + CCL $77.43 + Luke's DJT $10 call $1 (expired today OTM, DJT $8.91).
   Trades today: none (7 runs). CCL held: closed $25.78 (+2.8% day, +$1.11 vs $25.41 entry), above 50d $25.33 and 20d; GTC stop $23.95 live over the weekend; B/E trigger $26.93 not hit.
   Scorecard: 2 closed trades, 0 W / 2 L (IONQ −$1.42, KMX −$1.01); 1 open (CCL +$1.11 unrealized). Week (9/28–10/2): sleeve $198.58 → $198.68, 2 buys, 1 stop-out.
-  What worked / what didn't: CCL turned into a gain after holding its 20d and reclaiming the 50d. HPE was the best setup of the week (fresh upgrades + ATH, +7.4% close) but the full-day 1.5× volume rule blocked it all day (closed ~1.1×) — third large-cap miss on volume (NVDA 9/28, KMX timing, HPE).
+  What worked / what didn't: CCL turned into a gain after holding its 20d and reclaiming the 50d. HPE was the best setup of the week (fresh upgrades + ATH, +7.4% close) but the full-day 1.5× volume rule blocked it all day (closed ~1.1×) — second large-cap miss on volume (NVDA 9/28, HPE 10/2).
   Market: SPY $769.65 (+0.7%), above 50d $760.59. NVDA $233.99 (+1.4%), HPE $69.34 (+7.4%), COHR $337.15 (+5.6%), SHOP $151.39 (+1.5%), IONQ $43.78 (−0.5%), VICR $308.77 (+0.1%).
   Next week: manage CCL (B/E $26.93, target $28.20); HPE follow-through; KMX re-eligible Tue 10/6; decision pending from Luke on loosening the volume rule for large caps.
