@@ -13,3 +13,6 @@
 | 7d0898ef-b4c9-48cd-be10-dd968ae964c5 | KMX | price_above | $64.39 | DISABLED 9/29: position closed |
 | dcece3e5-9d62-4e89-9715-6498856337c1 | CCL | price_below | $24.20 | Sleeve position: ~1% above stop $23.95 (added 9/30) |
 | 839f87ad-e31d-49f7-9491-838f72c363d2 | CCL | price_above | $26.93 | Sleeve position: +6% → raise stop to break-even (added 9/30) |
+| b4554d18-a8c1-441d-816a-ff1a368847ca | MRVL | price_below | $271.40 | Sleeve position SOFT STOP (fractional; −7% from $291.78) — at/below → market sell all (added 10/6) |
+| fe19631d-e487-4613-919d-b42e663da60b | MRVL | price_below | $274.10 | Sleeve position: ~1% above soft stop (added 10/6) |
+| 6ae67cec-70f9-423b-84d6-0957454872bf | MRVL | price_above | $309.30 | Sleeve position: +6% → soft stop to break-even (added 10/6) |
