@@ -114,3 +114,6 @@ Sleeve $200.00 → $199.63 at close (−$0.37). 1 buy (IONQ 1 @ $42.7861, stop $
   What worked / what didn't: CCL is now the best trade so far (+4.6%); MRVL was bought after the Investor Day spike faded from $301 (entry ~3% below the high) and drifted lower intraday — the 1.5× volume rule delayed entry by an hour.
   Market: SPY $779.14 (+0.6%), above 50d $760.59; QQQ $759.61 (+0.5%). HPE $70.56 (+3.2%), SHOP $164.50 (+2.7%), COHR $338.49 (+1.5%), IONQ $43.31 (+0.8%), KMX $55.34 (+0.9%), NVDA $239.17 (+0.1%).
   Tomorrow: 9:45 MRVL soft-stop check first; CCL B/E check ($26.93). No new buys unless a position closes. Still pending from Luke: loosen volume rule for large caps? ATR stops?
+
+## 2026-10-07
+- 09:05 PRE-MARKET (ran 09:18; committed 09:47 — commit blocked at 09:18 by tool safety-check errors): Sleeve $199.77 at Tue official close (CCL $26.58, MRVL $287.01; −$0.23 since start — close report's $199.79 used last trades). Account $187.47 (pre-market marks). Pre-market: CCL $26.20 (−1.4%, +$2.37 vs entry), MRVL $282.90 (−1.4%, −$2.43 vs entry; above SOFT stop $271.40). CCL GTC stop check failed at 09:18 (connector safety-check error) — re-verified OK at 09:46. No alerts overnight. SPY $776.07 (−0.4%; above 50d), QQQ −0.7%, NVDA −0.9%, COHR −2.5%, IONQ −1.9%. Plan: MRVL soft-stop check, CCL B/E check; positions full → no new buys.
