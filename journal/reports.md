@@ -128,3 +128,6 @@ Sleeve $200.00 → $199.63 at close (−$0.37). 1 buy (IONQ 1 @ $42.7861, stop $
   Note: 09:18 pre-market commit was blocked by tool safety-check errors; written and pushed at 09:47.
   Market: SPY $777.17 (−0.2%), above 50d $760.59; QQQ $757.71 (−0.3%). HPE $72.12 (+2.3%), SHOP $165.97 (+0.9%), NVDA $237.36 (−0.8%; breakout alert re-fired 15:04), COHR $334.57 (−1.1%), IONQ $41.34 (−4.5%), KMX $53.27 (−3.7%).
   Tomorrow: 9:45 MRVL soft-stop check; CCL B/E check. No new buys unless a slot frees. Still pending from Luke: volume rule for large caps? ATR stops?
+
+## 2026-10-08
+- 09:05 PRE-MARKET (ran 09:20): Sleeve $197.84 at Wed official close (CCL $26.15, MRVL $284.68; −$2.16 since start). Account $184.55 (pre-market marks). Pre-market: CCL $25.60 (−2.1%, +$0.57 vs $25.41 entry; GTC stop $23.95 confirmed 08:28), MRVL $278.80 (−2.1%, −$3.56 / −4.4% vs $291.78 entry; $7.40 / 2.7% above SOFT stop $271.40 — watch closely at 9:45). No alerts fired overnight. Risk-off pre-market: SPY $774.94 (−0.3%; above 50d $760.59), QQQ $753.85 (−0.5%). NVDA $235.37 (−0.9%, back below $236.54), COHR $322.80 (−3.5%), HPE $71.08 (−1.4%), SHOP ~$165.4 (−0.4%), KMX ~$52.9 (−0.8%), IONQ $41.77 (+1.0%). Plan: 9:45 run: MRVL soft-stop check first (sell all at market if ≤ $271.40); CCL B/E check; positions full → no new buys.
