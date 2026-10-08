@@ -8,7 +8,6 @@ Options test: OPEN      <!-- 1 long call/put, max $40 premium, APPROVE FIRST, fr
 | Ticker | Shares | Entry date | Entry price | Cost | Stop | Target | Stop order ID | Proposal |
 |---|---|---|---|---|---|---|---|---|
 | CCL | 3 | 2026-09-30 | $25.4099 | $76.23 | $23.95 (stop-limit $23.60, GTC; −5.7%) | $28.20 (+11.0%) | 6abd12e1-56fa-4537-9939-a36575b82fac | P-2026-09-30-01 |
-| MRVL | 0.274177 | 2026-10-06 | $291.7821 | $80.00 | $271.40 SOFT (price_below alert b4554d18; −7.0%) | $325.00 (+11.4%) | SOFT | P-2026-10-06-01 |
 
 ## Not sleeve (do not manage)
 - DJT $10 call exp 2026-10-02, 1 contract, bought by Luke manually 2026-09-29 10:11 ET for $10.00 (placed_agent=user, order 6abbc718-8a40-4d63-bedd-10e13472c00d). It uses ~$10 of the Agentic account's cash, so sleeve cash available = account `cash`. Agent never touches it.
