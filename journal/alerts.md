@@ -16,3 +16,5 @@
 | b4554d18-a8c1-441d-816a-ff1a368847ca | MRVL | price_below | $271.40 | FIRED 10/8 12:52 @ $271.34 → sold 13:47; DISABLED 10/8: position closed |
 | fe19631d-e487-4613-919d-b42e663da60b | MRVL | price_below | $274.10 | FIRED 10/8 12:49 @ $274.06; DISABLED 10/8: position closed |
 | 6ae67cec-70f9-423b-84d6-0957454872bf | MRVL | price_above | $309.30 | DISABLED 10/8: position closed |
+| 012bc2fc-8c35-472c-990c-8b6b3b4e35b7 | TEVA | price_below | $40.25 | Sleeve position: ~1% above stop $39.85 (added 10/9) |
+| 85bcd1c6-aa9e-477e-90f2-178901bbbcf6 | TEVA | price_above | $43.25 | Sleeve position: +6% → raise stop to break-even (added 10/9) |
