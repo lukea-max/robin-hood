@@ -7,7 +7,7 @@ Options test: OPEN      <!-- 1 long call/put, max $40 premium, APPROVE FIRST, fr
 
 | Ticker | Shares | Entry date | Entry price | Cost | Stop | Target | Stop order ID | Proposal |
 |---|---|---|---|---|---|---|---|---|
-| CCL | 3 | 2026-09-30 | $25.4099 | $76.23 | $23.95 (stop-limit $23.60, GTC; −5.7%) | $28.20 (+11.0%) | 6abd12e1-56fa-4537-9939-a36575b82fac | P-2026-09-30-01 |
+| CCL | 3 | 2026-09-30 | $25.4099 | $76.23 | $25.41 BREAK-EVEN (stop-limit $25.05, GTC; raised 2026-10-16 09:47 after +6% hit; was $23.95) | $28.20 (+11.0%) | 6ad22ad9-4428-47ed-b512-dec4d2a076ab | P-2026-09-30-01 |
 | TEVA | 2 | 2026-10-09 | $40.80 | $81.60 | $39.85 (stop-limit $39.50, GTC; −2.3%) | $44.50 (+9.1%) | 6ac8f0ab-3e36-4150-81f3-eee32a9fa7da | P-2026-10-09-01 |
 
 ## Not sleeve (do not manage)
