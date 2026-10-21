@@ -18,3 +18,4 @@ has to pass at the time of the trade (especially the "don't chase more than 12%"
 
 ## Never trade
 <!-- tickers the agent must never propose -->
+- TEVA: stopped out 2026-10-21 @ $39.78 → NO re-entry before 2026-10-28 (5 trading days)

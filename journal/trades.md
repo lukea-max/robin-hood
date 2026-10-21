@@ -10,5 +10,6 @@
 | 2026-10-06 11:46 | BUY (fractional, $80 market) | MRVL | 0.274177 | $291.7821 | $80.00 | 6ac517ef-ea13-4d16-ad7e-9e3f1558ccdb | P-2026-10-06-01 | — |
 | 2026-10-08 13:47 | SELL (soft stop, market) | MRVL | 0.274177 | $268.4001 | $73.59 | 6ac7d72f-80d2-41d7-bbfd-00ec06cc92c0 | P-2026-10-06-01 | −$6.41 |
 | 2026-10-09 09:48 | BUY | TEVA | 2 | $40.80 | $81.60 | 6ac8f098-3263-45e1-abcf-82febf3e637a | P-2026-10-09-01 | — |
+| 2026-10-21 09:31 | SELL (stop) | TEVA | 2 | $39.78 | $79.56 | 6ac8f0ab-3e36-4150-81f3-eee32a9fa7da | P-2026-10-09-01 | −$2.04 |
 
-**Realized P&L to date:** −$8.84 (3 trades: 0 W / 3 L)
+**Realized P&L to date:** −$10.88 (4 trades: 0 W / 4 L)
