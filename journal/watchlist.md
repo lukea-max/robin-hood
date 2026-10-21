@@ -14,8 +14,8 @@ has to pass at the time of the trade (especially the "don't chase more than 12%"
 - KMX (stopped out 9/29 @ $59.74; NO re-entry before 2026-10-06) | 2026-09-29 | Q2 FY27 beat: EPS $1.16 (+81% y/y), revenue +19.5%, buybacks resume (8-K) | +6.8% @ ~$60.4, above 20d $59.53 / 50d $59.38 but faded from $63.67 high; volume 2.56M vs 1.5× avg ≈ 5.0M needed; whole shares fit (1 sh ≈ $60); breakout alert at 52w high $65.28
 
 ## Removed
+- TEVA (re-entry block, not a watchlist name): stopped out 2026-10-21 @ $39.78 → NO re-entry before 2026-10-28 (5 trading days)
 - VKTX: removed 2026-09-25 (dilutive $500M offering broke the setup); Day 1 entry and $43.15 alert deleted
 
 ## Never trade
 <!-- tickers the agent must never propose -->
-- TEVA: stopped out 2026-10-21 @ $39.78 → NO re-entry before 2026-10-28 (5 trading days)
