@@ -11,8 +11,8 @@
 | ad44df62-2c37-43de-8df7-eb2b2b50aeaf | KMX | price_above | $65.28 | Breakout over 52w high (watchlist, added 9/29) |
 | 0b3fcb7d-ecbf-467a-b6d6-6c0864549619 | KMX | price_below | $60.40 | DISABLED 9/29: position stopped out (fired 11:10 @ $60.38) |
 | 7d0898ef-b4c9-48cd-be10-dd968ae964c5 | KMX | price_above | $64.39 | DISABLED 9/29: position closed |
-| dcece3e5-9d62-4e89-9715-6498856337c1 | CCL | price_below | $26.95 | Sleeve position: ~1% above trailing stop $26.68 (moved 10/27 13:46; was $26.83 / $25.66) |
-| 839f87ad-e31d-49f7-9491-838f72c363d2 | CCL | price_above | $28.20 | Sleeve position: target $28.20 (moved 10/27; +10% trail trigger $27.95 FIRED 10/27 11:44 @ $27.96; earlier +6% trigger FIRED 10/16) |
+| dcece3e5-9d62-4e89-9715-6498856337c1 | CCL | price_below | $26.95 | DISABLED 10/29: position closed (take-profit sell 09:58) |
+| 839f87ad-e31d-49f7-9491-838f72c363d2 | CCL | price_above | $28.20 | DISABLED 10/29: position closed (target hit; sold 09:58 @ $28.8621) |
 | b4554d18-a8c1-441d-816a-ff1a368847ca | MRVL | price_below | $271.40 | FIRED 10/8 12:52 @ $271.34 → sold 13:47; DISABLED 10/8: position closed |
 | fe19631d-e487-4613-919d-b42e663da60b | MRVL | price_below | $274.10 | FIRED 10/8 12:49 @ $274.06; DISABLED 10/8: position closed |
 | 6ae67cec-70f9-423b-84d6-0957454872bf | MRVL | price_above | $309.30 | DISABLED 10/8: position closed |
