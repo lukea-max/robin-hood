@@ -19,5 +19,5 @@
 | 012bc2fc-8c35-472c-990c-8b6b3b4e35b7 | TEVA | price_below | $40.25 | FIRED 10/21 09:27 @ $40.22; DISABLED 10/21: position stopped out |
 | 85bcd1c6-aa9e-477e-90f2-178901bbbcf6 | TEVA | price_above | $43.25 | DISABLED 10/21: position closed |
 | a0faca0d-c976-4447-bb7c-36406ffffa37 | TEVA | price_below | $41.54 | SOFT STOP for fractional position P-2026-11-03-01 (sell at market if ≤ stop) |
-| 84787cf8-cb3f-47c5-9875-177183c4e9a4 | TEVA | price_below | $41.96 | ~1% above stop (warning) |
+| 84787cf8-cb3f-47c5-9875-177183c4e9a4 | TEVA | price_below | $41.96 | ~1% above stop (warning); FIRED 11/3 15:13 ET @ $41.95 (read) |
 | c772deac-c30e-40b4-8607-eb582ee7b92d | TEVA | price_above | $45.90 | +6% → raise soft stop to break-even $43.30 |
