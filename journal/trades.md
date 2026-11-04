@@ -13,5 +13,6 @@
 | 2026-10-21 09:31 | SELL (stop) | TEVA | 2 | $39.78 | $79.56 | 6ac8f0ab-3e36-4150-81f3-eee32a9fa7da | P-2026-10-09-01 | −$2.04 |
 | 2026-10-29 09:58 | SELL (take-profit, limit $28.84) | CCL | 3 | $28.8621 | $86.59 | 6ae350fb-a169-4b46-ba74-fe9a3686c999 | P-2026-09-30-01 | +$10.36 |
 | 2026-11-03 10:46 | BUY (fractional, $40 market) | TEVA | 0.923789 | $43.2999 | $40.00 | 6aea01e5-1454-4815-ac8c-faffe0b86b1b | P-2026-11-03-01 | — |
+| 2026-11-04 09:46 | SELL (soft stop, market) | TEVA | 0.923789 | $41.4542 | $38.30 | 6aeb4550-7535-427c-babf-ea1d3d3f84ff | P-2026-11-03-01 | −$1.70 |
 
-**Realized P&L to date:** −$0.52 (5 trades: 1 W / 4 L)
+**Realized P&L to date:** −$2.22 (6 trades: 1 W / 5 L)
