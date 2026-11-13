@@ -493,3 +493,6 @@ Sleeve $200.00 → $199.63 at close (−$0.37). 1 buy (IONQ 1 @ $42.7861, stop $
   - What worked: discipline — skipped AMD/AVGO (+5–6% on NVDA rotation, no own catalyst) and TEVA (R&D Day + PT raises, 52w high, but volume ~1.0× vs 1.5× rule).
   - Market: SPY $757.10 (−0.4%, < 50d ~$765), QQQ −0.5%. NVDA $163.67 (−5.8%) on reports its board is weighing removing CEO Jensen Huang. IONQ −9.2%, CCL −4.1%.
   - Tomorrow (Fri 11/13): 2 slots open; half size (~$40), max 1 buy unless SPY reclaims ~$765. Watch TEVA for a volume-confirmed follow-through; NVDA CEO headlines are the swing factor. DST trigger fix still awaiting Luke's OK.
+
+## 2026-11-13
+- 09:05 PRE-MARKET (ran 10:05 ET — trigger scheduled 13:05 UTC fired 2h late): ⚠️ Robinhood connector still failing to connect (502) → no quotes, balances or orders available; nothing in this report is fresh market data. Last known state (11/12 15:16 ET): sleeve $197.77 all cash, no positions, no open orders, no stops at risk. Correction to 11/12 reports: the NVDA drop was on *unconfirmed* media reports (CNBC/Benzinga) that its board was weighing CEO Jensen Huang's future — not a confirmed event. No trading until the connector is back; plan unchanged (half size ~$40, max 1 buy while SPY < 50d ~$765; watch TEVA for volume-confirmed follow-through).
