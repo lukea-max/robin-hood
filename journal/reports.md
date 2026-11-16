@@ -511,3 +511,11 @@ Sleeve $200.00 → $199.63 at close (−$0.37). 1 buy (IONQ 1 @ $42.7861, stop $
 - 09:05 PRE-MARKET (ran 08:09 ET; trigger 13:05 UTC fires 1h early since DST): Sleeve $197.77 all cash, no positions/orders, no alerts over the weekend. Futures weak again, chips leading lower: SPY $750.28 pre (−0.5% vs Fri close $754.37; < 50d ~$765 → half size ~$40, max 1 buy), QQQ −1.2%, NVDA $158.06 (−2.9%), AMD −5.1%, AVGO −3.3%, MRVL −5.5%, COHR −6.3%, IONQ −3.2% ($27.95). Standout: TEVA $44.72 pre (+0.5%) after closing Fri at $44.50, above its prior 52w high $44.31 → watch for a volume-confirmed breakout (needs ≥1.5× avg volume + a verifiable catalyst within 48h; last catalyst was 11/12 PT raises, now stale). CCL −0.6%. No buys before 9:45. Pending for Luke: DST trigger fix, volume rule, stops, options test.
 - 12:30 MIDDAY (ran 11:32 ET; DST offset): Sleeve $197.77 all cash, no trades today. Risk-off, slight bounce off the lows: SPY $746.54 (−1.0%, < 50d ~$765), QQQ −1.5%, NVDA −1.8%, AMD −3.8%, AVGO −2.8%, MRVL −4.9%, COHR −4.7%, IONQ −7.2% ($26.79). TEVA $43.84 (−1.5%), back below its 52w high. CCL −1.0%. No setups; half size / max 1 buy while SPY < 50d.
 - 15:30 PRE-CLOSE (ran 14:42 ET; DST offset): Sleeve $197.77 all cash, no trades today, nothing held overnight. Broad selloff near lows: SPY $738.68 (−2.1%, < 50d ~$765), QQQ −2.7%, NVDA −4.5%, AMD −5.3%, AVGO −4.1%. TEVA $43.13 (−3.1%) lost its 52w-high breakout; IONQ −8.0%; CCL −1.9%. The ~14:45 ET run is the last buy-eligible one; no candidates.
+- 16:15 CLOSE (ran 15:15 ET, 45 min BEFORE the close — intraday prices; trigger fires 1h early since DST)
+  🌙 CLOSE · Mon 2026-11-16
+  - Sleeve: $197.77 (cash $187.74 + DJT call ~$10.03, not sleeve) · day P&L $0.00 · vs S $200: −$2.23 (−1.1%)
+  - Trades: none (7 cycles, 0 orders). Positions: none — flat overnight.
+  - Scorecard: 6 trades, 1 W / 5 L, realized −$2.22 (unchanged).
+  - What worked: being in cash on a broad −2% day.
+  - Market: SPY $738.65 (−2.1%, now ~3.4% below 50d ~$765), QQQ −2.8%. NVDA $155.54 (−4.5%), AMD −5.8%, AVGO −4.3%. TEVA $42.90 (−3.6%) failed its 52w-high breakout; IONQ −7.9%, CCL −1.2%.
+  - Tomorrow (Tue 11/17): 2 slots open; half size (~$40), max 1 buy while SPY < 50d. Market filter is worsening — expect few or no setups. Pending for Luke: DST trigger fix, volume rule, stops, options test.
