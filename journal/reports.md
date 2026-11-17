@@ -519,3 +519,6 @@ Sleeve $200.00 → $199.63 at close (−$0.37). 1 buy (IONQ 1 @ $42.7861, stop $
   - What worked: being in cash on a broad −2% day.
   - Market: SPY $738.65 (−2.1%, now ~3.4% below 50d ~$765), QQQ −2.8%. NVDA $155.54 (−4.5%), AMD −5.8%, AVGO −4.3%. TEVA $42.90 (−3.6%) failed its 52w-high breakout; IONQ −7.9%, CCL −1.2%.
   - Tomorrow (Tue 11/17): 2 slots open; half size (~$40), max 1 buy while SPY < 50d. Market filter is worsening — expect few or no setups. Pending for Luke: DST trigger fix, volume rule, stops, options test.
+
+## 2026-11-17
+- 09:05 PRE-MARKET (ran 08:08 ET; trigger 13:05 UTC fires 1h early since DST): Sleeve $197.77 all cash, no positions/orders, no alerts overnight. Flat index futures, chip bounce: SPY $740.20 pre (+0.0% vs Mon close $739.95; ~3.3% < 50d ~$765 → half size ~$40, max 1 buy), QQQ +0.5%, NVDA +1.2%, AMD +2.7%, AVGO +1.5%, MRVL +5.1%, COHR $223.03 (+9.6%) — headlines tie the COHR/LITE jump to US pressing ahead with China equipment curbs (investing.com); that is a policy/sector story, not a company-specific catalyst per STRATEGY.md, and COHR has been below its 50d → not a setup unless something company-specific is verified. IONQ +2.1% ($27.01, still < 20d/50d), TEVA −0.7% ($42.28), CCL −0.4%. No buys before 9:45. Pending for Luke: DST trigger fix, volume rule, stops, options test.
