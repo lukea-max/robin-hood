@@ -610,3 +610,4 @@ Sleeve $200.00 → $199.63 at close (−$0.37). 1 buy (IONQ 1 @ $42.7861, stop $
 
 ## 2026-11-26 (Thanksgiving, market closed)
 - 09:05 PRE-MARKET (ran 08:06 ET; DST offset): US markets closed today. Sleeve $197.77 by sleeve accounting (account $187.74 all cash), no positions or orders. Wed 11/25 last regular-session trades (Robinhood's "official close" field has not updated yet and still shows Tue): SPY $716.75 (−0.3%), QQQ $633.95 (−0.6%), NVDA $149.33 (−3.9%), AMD $406.10 (−1.7%), IONQ $23.54 (+5.1%), CCL $27.99 (−1.4%), TEVA $39.87 (−0.6%). Wed after-hours drifted up (SPY $720.43, NVDA $151.22). No trading runs needed today. Next: Fri 11/27, early close 13:00 ET.
+- 12:30 MIDDAY (ran 11:32 ET): Thanksgiving, market closed. Sleeve $197.77 by sleeve accounting (account $187.74 all cash), no positions or orders. Nothing to report. Next session Fri 11/27, early close 13:00 ET.
