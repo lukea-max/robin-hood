@@ -356,3 +356,4 @@ Status values: PLACED · FILLED · SKIPPED · EXPIRED · CANCELLED · (approve m
 | — | 2026-11-26 12:45 | SCAN | — | — | — | — | — | NO TRADE | Thanksgiving: market closed. No-op run. All cash $187.74, no positions. |
 | — | 2026-11-26 13:45 | SCAN | — | — | — | — | — | NO TRADE | Thanksgiving: market closed. No-op run. All cash $187.74, no positions. |
 | — | 2026-11-26 14:45 | SCAN | — | — | — | — | — | NO TRADE | Thanksgiving: market closed. No-op run. All cash $187.74, no positions. |
+| — | 2026-11-27 08:47 | SCAN | — | — | — | — | — | NO TRADE | Pre-open (08:47 ET, DST offset); no buys before 09:45. No positions or open orders; all cash $187.74. IONQ re-check: pre-mkt $24.64 (+4.7%) is below its 20d $28.01 and 50d $34.04, so FAIL. SPY pre-mkt $728.22 (+1.6%) < 20d $740.33 / 50d $757.89, so half size and max 1 buy. Early close 13:00 ET. |
